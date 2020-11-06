@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1603436724 source:c:\users\administrator\desktop\concurrentmemorypool\main.cpp
+	"Common.h"
+	"PageCache.h"
+	"CentralCache.h"
+	"ThreadCache.h"
+	"ConcurrentMalloc.h"
+	<stdio.h>
+
+1602770984 c:\users\administrator\desktop\concurrentmemorypool\radix.h
+	<iostream>
+	<assert.h>
+	<memory>
+	<queue>
+
+1603436708 c:\users\administrator\desktop\concurrentmemorypool\common.h
+	<assert.h>
+	<iostream>
+	<algorithm>
+	<windows.h>
+	<thread>
+	<unordered_map>
+	<mutex>
+
+1603436493 c:\users\administrator\desktop\concurrentmemorypool\concurrentmalloc.h
+	"Common.h"
+	"ThreadCache.h"
+	"PageCache.h"
+
+1602773656 c:\users\administrator\desktop\concurrentmemorypool\pagecache.h
+	"Common.h"
+	"Radix.h"
+
+1603436496 c:\users\administrator\desktop\concurrentmemorypool\threadcache.h
+	"Common.h"
+	"CentralCache.h"
+
+1602770872 c:\users\administrator\desktop\concurrentmemorypool\centralcache.h
+	"Common.h"
+	"PageCache.h"
+
